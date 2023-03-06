@@ -1,0 +1,45 @@
+body {
+	background: linear-gradient(-45deg, #e24f22, #ff0202, #ffffff, #ff0000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.card-header{
+  background: linear-gradient(-45deg, #fdfdfd, #b8b6b6, #ffffff, #b8b6b6);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.company-logo-form{
+  width: 100px;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+.click-agreement{
+  font-size: 13px;
+  word-spacing: 2px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.policy-terms-of-business{
+  text-decoration: none;
+  font-weight: bold;
+}
